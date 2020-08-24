@@ -10,7 +10,12 @@ The Objective of the repo is to showcase how to detect the lane lines on a road 
 ![solidyellow](Results/yellow_lane.png "Output for Solid Yellow Lanes")
 
 ## Purpose
-The Lane Lines on a road denote the designated path on which the vehicle has to traverse on as the actor module of the Path-Planning module of the Autonomous Vehicle. The Planning module of the self driving car is dependant on various sensors such as  1.)Visual Perception Sensors(Cameras)  2.)LIDAR  3.) RADAR  4.)SONAR or Ultrasonics  . This repo is part of the Visual Perception Sensor input to the PLanning moudle. This is a time critical process and can be used to steer the vehicle using Real-Time data.
+The Lane Lines on a road denote the designated path on which the vehicle has to traverse on as the actor module of the Path-Planning module of the Autonomous Vehicle. The Planning module of the self driving car is dependant on various sensors such as  
+1.)Visual Perception Sensors(Cameras)  
+2.)LIDAR  
+3.) RADAR  
+4.)SONAR or Ultrasonics  
+This repo is part of the Visual Perception Sensor input to the Planning moudle. This is a time critical process and can be used to steer the vehicle using Real-Time data.
 The examples of how the lane lines are shown in the below image.
 
 ## Hough Lines
@@ -18,7 +23,13 @@ Hough Transform is a mehodology that is used to detect any shape, if that partic
 In this project we will be using the Hough lines to detect the lane lines and device a mathematical way to draw and connect the points.
 
 ## Project Requirements
-1.) Python3  2.) OpenCV  3.)Numpy 4.) Matplot Libraries  5.)Moviepy  6.) IPython  7.) ffmpeg dependencies
+1.) Python3  
+2.) OpenCV  
+3.)Numpy 
+4.) Matplot Libraries  
+5.)Moviepy  
+6.) IPython  
+7.) ffmpeg dependencies
 
 ## Pipeline
 
