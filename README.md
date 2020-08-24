@@ -4,7 +4,10 @@
 This project was done to fulfill the requirements of the CARND nannodree from Udacity.
 
 ## Overview
-The Objective of the repo is to showcase how to detect the lane lines on a road using Hough lines and Perspective Transformation to extract the required information from them. This project is a sub-module of the Self-Driving cars Visual System. The project was programmed using Python3 libraries.
+The Objective of the repo is to showcase how to detect the lane lines on a road using Hough lines and Perspective Transformation to extract the required information from them. This project is a sub-module of the Self-Driving cars Visual System. The project was programmed using Python3 libraries.  
+
+![solidwhite](Results/white_lane.png "Output for Solid White Lanes")
+![solidyellow](Results/yellow_lane.png "Output for Solid Yellow Lanes")
 
 ## Purpose
 The Lane Lines on a road denote the designated path on which the vehicle has to traverse on as the actor module of the Path-Planning module of the Autonomous Vehicle. The Planning module of the self driving car is dependant on various sensors such as  1.)Visual Perception Sensors(Cameras)  2.)LIDAR  3.) RADAR  4.)SONAR or Ultrasonics  . This repo is part of the Visual Perception Sensor input to the PLanning moudle. This is a time critical process and can be used to steer the vehicle using Real-Time data.
